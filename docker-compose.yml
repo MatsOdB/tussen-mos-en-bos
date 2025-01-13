@@ -12,3 +12,11 @@ services:
       - /app/node_modules
     environment:
       NODE_ENV: development
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.tussen-mos-en-bos.entrypoints=web,websecure
+      - traefik.http.routers.tussen-mos-en-bos.rule=Host(`tussenmosenbos.be`)
+      - traefik.http.routers.tussen-mos-en-bos.tls=true
+      - traefik.http.routers.tussen-mos-en-bos.tls.certresolver=production
+      - traefik.http.services.tussen-mos-en-bos.loadbalancer.server.port=3000
+      - traefik.docker.network=traefik_network
