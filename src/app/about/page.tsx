@@ -1,6 +1,4 @@
 import React from "react";
-import { CalendarDays, Footprints, MapPin, Baby } from "lucide-react";
-import Image from "next/image";
 import NavBar from "@/components/navbar";
 
 const navigation = [
