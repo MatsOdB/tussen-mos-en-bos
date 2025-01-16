@@ -11,7 +11,7 @@ export default {
     extend: {
       colors: {
         custom_indigo: "#5f6f9b",
-        custom_green: "#b2bd7b",
+        custom_green: "#cad1a7",
         custom_rose: "#d75e6d",
         custom_orange: "#e68e4a",
         custom_brown: "#5d3b2c",

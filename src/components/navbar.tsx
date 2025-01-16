@@ -32,7 +32,7 @@ export default function NavBar(props: { navigation: NavigationItem[]; className?
                   />
                 </Link>
               </div>
-              <div className="hidden sm:-my-px sm:flex sm:space-x-8">
+              <div className="hidden lg:-my-px lg:flex lg:space-x-8">
                 {props.navigation.map((item) => (
                   <a
                     key={item.name}
@@ -51,8 +51,8 @@ export default function NavBar(props: { navigation: NavigationItem[]; className?
               </div>
               <div></div>
             </div>
-            <div className="-mr-2 flex items-center sm:hidden">
-              <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-orange-50 p-2 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-100 focus:ring-offset-0">
+            <div className="-mr-2 flex items-center lg:hidden">
+              <DisclosureButton className="group relative inline-flex items-center justify-center rounded-lg bg-orange-50 p-2 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-100 focus:ring-offset-0">
                 <span className="absolute -inset-0.5" />
                 <span className="sr-only">Open main menu</span>
                 <Bars3Icon aria-hidden="true" className="block size-6 group-data-[open]:hidden" />
@@ -62,7 +62,7 @@ export default function NavBar(props: { navigation: NavigationItem[]; className?
           </div>
         </div>
 
-        <DisclosurePanel className="sm:hidden">
+        <DisclosurePanel className="lg:hidden">
           <div className="space-y-1 pb-3 pt-2">
             {props.navigation.map((item) => (
               <DisclosureButton
