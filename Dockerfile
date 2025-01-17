@@ -7,8 +7,6 @@ WORKDIR /app
 # Copy the rest of the application code
 COPY . .
 
-RUN npm run build
-
 # Expose port 3000
 EXPOSE 3000
 
