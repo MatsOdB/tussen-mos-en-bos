@@ -1,6 +1,7 @@
 import React from "react";
 import { CalendarDays, Footprints, MapPin, Baby } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import NavBar from "@/components/navbar";
 
 const navigation = [
@@ -49,7 +50,7 @@ export default function Home() {
                         />
                       </div>
                       <p className="text-center text-base sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl sm:text-nowrap text-custom_brown font-alice font-bold">
-                        Naam locatie <br /> @plaats
+                        Sint-Annabos
                       </p>
                     </div>
                     <div className="w-14 sm:w-20 md:w-24 lg:w-16 xl:w-20 3xl:w-24 flex flex-col gap-2 items-center">
@@ -60,7 +61,7 @@ export default function Home() {
                         />
                       </div>
                       <p className="text-center text-base sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl text-nowrap text-custom_brown font-alice font-bold">
-                        X kilometer <br />
+                        1,7 kilometer <br />
                         +/- X uur
                       </p>
                     </div>
@@ -73,7 +74,7 @@ export default function Home() {
                       </div>
                       <p className="text-center text-base sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl sm:text-nowrap text-custom_brown font-alice font-bold">
                         Leeftijd <br />
-                        X-X jaar
+                        5-10 jaar
                       </p>
                     </div>
                   </div>
@@ -100,20 +101,17 @@ export default function Home() {
                     Hallo daar!
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl sm:mt-12 xl:text-2xl">
-                    Ik hier, Sami de eekhoorn! Ik heb een probleem… Mijn nootjes! Ze zijn overal
-                    verstopt, maar ik kan ze niet meer vinden! Ik heb er zoveel verstopt in het X
-                    bos, maar door al mijn avonturen en gekke sprongetjes ben ik vergeten waar.
-                    <br />
-                    Daarom doe ik een oproep: Help je me zoeken?
-                    <br />
-                    Wie weet ben jij de speurneus die mijn nootjes terugvindt!
+                    Ik hier, Sammi de eekhoorn! Ik heb een probleem… Mijn nootjes! Ze zijn overal
+                    verstopt, maar ik kan ze niet meer vinden! Ik heb er zoveel verstopt in het
+                    Sint-Annabos, maar door al mijn avonturen en gekke sprongetjes ben ik vergeten
+                    waar. Daarom doe ik een oproep: Help je me zoeken? Wie weet ben jij de speurneus
+                    die mijn nootjes terugvindt!
                     <br />
                     <br />
-                    Kom jij mij helpen op 2, 3 of 4 mei?
-                    <br />
-                    <a href="" className="underline">
+                    Kom jij mij helpen op 2 - 3 mei?{" "}
+                    <Link href="/" className="underline">
                       Link tickets
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -127,23 +125,15 @@ export default function Home() {
                 Wat is &apos; tussen mos en bos &apos; ?
               </h1>
               <p className="text-center font-alice text-base sm:text-2xl 3xl:text-2xl 4xl:text-3xl mt-6 sm:mt-12 xl:text-2xl w-10/12 pb-4 sm:pb-0">
-                Ga mee op avontuur met Sami de eekhoorn en help hem zijn verloren schatten terug te
-                vinden! Sami rekent op jouw speurneus om de geheimen van het bos te ontrafelen.
-                <br />
-                <br className="hidden sm:block" />
-                Volg kronkelende paden en ontdek de magie van de natuur, waar achter elke oude eik
-                en onder elk varendak een nieuwe bosvriend van Sami op je wacht. Zij helpen je
-                onderweg met verrassende weetjes en bijzondere opdrachten.
-                <br />
-                <br className="hidden sm:block" />
-                Aan het einde van de wandeltocht kun je jouw creativiteit de vrije loop laten en
-                samen met Sami iets moois knutselen. Natuurlijk is er ook tijd om even uit te rusten
-                en te genieten van iets lekkers te knabbelen en drinken.
-                <br />
-                <br className="hidden sm:block" />
-                Word deel van dit sprookjesachtige avontuur in de bossen van (Locatie), tijdens het
-                weekend van 2 tot 4 mei. Laat je innerlijke speurneus stralen en beleef een
-                onvergetelijke ervaring!
+                Lieve vriendjes, HEEEEELP! Ik ben Sammi de eekhoorn, en ik zit met een probleem zo
+                groot als een populier! In het grote Sint-Annabos ben ik al mijn eten kwijtgeraakt.
+                Nu heb ik jullie hulp hard nodig! 🌳🐿️ Tijdens de verhalende wandeling &quot;Tussen
+                Mos en Bos&quot; van 2 tot 3 mei roep ik jullie, jonge speurneuzen van 5 tot 10
+                jaar, en jullie dappere (groot)ouders op om samen met mij en mijn vriendjes gespeeld
+                door acteurs, dit avontuur aan te gaan waar je leuke spelletjes, verrassende weetjes
+                en bijzondere opdrachten speelt. Zoals het testen van je eekhoorn-snelheid tijdens
+                het stokvangspel. Kunnen jullie me helpen mijn eten terug te vinden? 🥜🍎 Ik kan
+                niet wachten om jullie te zien! Pluizige groetjes, Sammi de Eekhoorn
               </p>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import NavBar from "@/components/navbar";
 
 const navigation = [
@@ -166,6 +167,36 @@ export default function Home() {
                       Céleste
                     </h4>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center">
+          <div className="size-full flex flex-col lg:flex-row">
+            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
+              <Image
+                src={"/assets/img/content/stefan.png"}
+                alt="Stefan"
+                width={1080}
+                height={1080}
+                className="size-3/4 3xl:size-3/5 rounded-xl object-cover"
+              />
+            </div>
+            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
+              <div className="size-full w-11/12 sm:w-3/4 lg:w-11/12 xl:w-3/4 lg:h-3/4 3xl:size-3/5 flex justify-center lg:items-center">
+                <div>
+                  <h1 className="text-center font-veryberry text-3xl sm:text-5xl 2xl:text-7xl 3xl:text-8xl text-cyan-700">
+                    Stefan
+                  </h1>
+                  <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl sm:mt-12 xl:text-2xl">
+                    Ik ben dan wel een creatieve en energieke eekhoorn, maar verhaaltjes schrijven
+                    is niet echt mijn sterkste kant. Daarom heb ik de hulp van Stefan ingeschakeld!
+                    Hij gaat me helpen om mijn avonturen zo goed mogelijk op te schrijven, zodat
+                    jullie er helemaal van kunnen genieten. Stefan is een echte schrijver en voelt
+                    zich helemaal thuis met pen en papier. Zo schrijft hij bijvoorbeeld ook voor
+                    nieuwssites!
+                  </p>
                 </div>
               </div>
             </div>
