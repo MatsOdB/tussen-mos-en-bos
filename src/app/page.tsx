@@ -237,7 +237,66 @@ export default function Home() {
             <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
               <Image
                 src={"/assets/img/content/forest.jpg"}
-                alt="Sami de eekhoorn"
+                alt="Sami's thuis"
+                width={1080}
+                height={1080}
+                className="size-3/4 3xl:size-3/5 rounded-xl object-cover"
+              />
+            </div>
+          </div>
+        </section>
+        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center mt-16 sm:mt-auto">
+          <div className="size-full flex flex-col lg:flex-row bg-custom_green">
+            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
+              <Image
+                src={"/assets/img/content/pannenkoek.jpg"}
+                alt="Pannenkoeken"
+                width={1080}
+                height={1080}
+                className="size-3/4 3xl:size-3/5 rounded-xl object-cover"
+              />
+            </div>
+            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
+              <div className="size-full w-11/12 sm:w-3/4 lg:w-11/12 xl:w-3/4 lg:h-3/4 3xl:size-3/5 flex justify-center lg:items-center">
+                <div>
+                  <h1 className="text-center font-veryberry text-3xl sm:text-5xl 2xl:text-7xl 3xl:text-8xl text-custom_rose">
+                    Heb jij er ook al honger van gekregen?
+                  </h1>
+                  <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl mt-8 sm:mt-12 xl:text-2xl">
+                    Na al dat wandelen en avontuur krijg je natuurlijk wel honger! En wat is er nu
+                    lekkerder dan een warme, smakelijke pannenkoek? Niets toch? Daarom hebben we aan
+                    het eind een speciale plek voor jou waar je even kunt uitrusten en lekker kunt
+                    smikkelen van heerlijke pannenkoeken!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center mt-16 sm:mt-auto">
+          <div className="size-full flex flex-col lg:flex-row">
+            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
+              <div className="size-full w-11/12 sm:w-3/4 lg:w-11/12 xl:w-3/4 lg:h-3/4 3xl:size-3/5 flex justify-center items-center">
+                <div>
+                  <h1 className="text-center font-veryberry text-3xl sm:text-5xl 2xl:text-7xl 3xl:text-8xl text-cyan-700">
+                    Het verhaal
+                  </h1>
+                  <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl mt-4 sm:mt-12 xl:text-2xl">
+                    Zoals jullie misschien al weten, ben ik mijn eten kwijt! Maar als jullie mij
+                    komen helpen, beloof ik jullie een spannend avontuur! Jullie beginnen aan een
+                    wandeltocht door mijn magische thuis, het bos. Onderweg vertellen mijn vriendjes
+                    jullie een leuk verhaal en komen er een paar avontuurlijke stops waar jullie een
+                    opdracht moeten doen. Als jullie de opdrachten goed uitvoeren, krijgen jullie
+                    mijn eten mee, zodat jullie het later aan mij kunnen geven! De wandeling is 1,8
+                    km en zal dus ongeveer X uur duren
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
+              <Image
+                src={"/assets/img/content/walking.jpg"}
+                alt="Wandelende kinderen"
                 width={1080}
                 height={1080}
                 className="size-3/4 3xl:size-3/5 rounded-xl object-cover"
