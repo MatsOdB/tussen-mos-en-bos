@@ -38,7 +38,7 @@ export default function Home() {
                         />
                       </div>
                       <p className="text-center text-base sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl sm:text-nowrap text-custom_brown font-alice font-bold">
-                        2 tot 4 <br />
+                        2 - 3 <br />
                         mei
                       </p>
                     </div>
@@ -62,7 +62,7 @@ export default function Home() {
                       </div>
                       <p className="text-center text-base sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl text-nowrap text-custom_brown font-alice font-bold">
                         1,7 kilometer <br />
-                        +/- X uur
+                        +/- 2,5 uur
                       </p>
                     </div>
                     <div className="w-14 sm:w-20 md:w-24 lg:w-16 xl:w-20 3xl:w-24 flex flex-col gap-2 items-center">
@@ -98,14 +98,12 @@ export default function Home() {
               <div className="size-full w-11/12 sm:w-3/4 lg:w-11/12 xl:w-3/4 lg:h-3/4 3xl:size-3/5 flex justify-center lg:items-center">
                 <div>
                   <h1 className="text-center font-veryberry text-3xl sm:text-5xl 2xl:text-7xl 3xl:text-8xl text-cyan-700">
-                    Hallo daar!
+                    Hey Speurneus!
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl sm:mt-12 xl:text-2xl">
-                    Ik hier, Sammi de eekhoorn! Ik heb een probleem… Mijn nootjes! Ze zijn overal
-                    verstopt, maar ik kan ze niet meer vinden! Ik heb er zoveel verstopt in het
-                    Sint-Annabos, maar door al mijn avonturen en gekke sprongetjes ben ik vergeten
-                    waar. Daarom doe ik een oproep: Help je me zoeken? Wie weet ben jij de speurneus
-                    die mijn nootjes terugvindt!
+                    HELP! Ik ben Sammi de eekhoorn en mijn eten is verdwenen. Wat ben ik toch verstrooid. 
+                    Ik zoek de hele dag achter elke struik en beukenboom 🌳, maar ik vind helemaal niets… 😢
+                    Waar heb ik mijn nootjes toch verstopt?
                     <br />
                     <br />
                     Kom jij mij helpen op 2 - 3 mei?{" "}
@@ -122,18 +120,16 @@ export default function Home() {
           <div className="size-full flex items-center justify-center">
             <div className="flex flex-col items-center 2xl:w-3/4 4xl:w-3/5">
               <h1 className="text-center text-3xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl 3xl:text-9xl font-veryberry text-orange-400">
-                Wat is &apos; tussen mos en bos &apos; ?
+                Wat is &apos; Tussen Mos en Bos &apos; ?
               </h1>
               <p className="text-center font-alice text-base sm:text-2xl 3xl:text-2xl 4xl:text-3xl mt-6 sm:mt-12 xl:text-2xl w-10/12 pb-4 sm:pb-0">
-                Lieve vriendjes, HEEEEELP! Ik ben Sammi de eekhoorn, en ik zit met een probleem zo
-                groot als een populier! In het grote Sint-Annabos ben ik al mijn eten kwijtgeraakt.
-                Nu heb ik jullie hulp hard nodig! 🌳🐿️ Tijdens de verhalende wandeling &quot;Tussen
-                Mos en Bos&quot; van 2 tot 3 mei roep ik jullie, jonge speurneuzen van 5 tot 10
-                jaar, en jullie dappere (groot)ouders op om samen met mij en mijn vriendjes gespeeld
-                door acteurs, dit avontuur aan te gaan waar je leuke spelletjes, verrassende weetjes
-                en bijzondere opdrachten speelt. Zoals het testen van je eekhoorn-snelheid tijdens
-                het stokvangspel. Kunnen jullie me helpen mijn eten terug te vinden? 🥜🍎 Ik kan
-                niet wachten om jullie te zien! Pluizige groetjes, Sammi de Eekhoorn
+                Een avontuurlijke en verhalende wandeling op 2 en 3 mei, speciaal voor jonge speurneuzen van 5 tot 10 jaar 
+                en hun dappere (groot)ouders. 🌳🐿️
+                Ik ben Sammi de Eekhoorn en samen met mijn vriendjes, gespeeld door acteurs, neem ik jullie mee op 
+                een spannende wandeling door het bos. 🪻☘️
+                Onderweg ontdekken we niet alleen de geheimen van de natuur, maar beleven we ook allerlei leuke activiteiten.
+                De wandeling zit boordevol spelletjes, fascinerende bosweetjes en bijzondere opdrachten, 
+                zoals het testen van je eekhoorn-snelheid met het stokvangspel. ✨
               </p>
             </div>
           </div>
@@ -212,14 +208,11 @@ export default function Home() {
                     Mijn magische thuis
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl mt-4 sm:mt-12 xl:text-2xl">
-                    Het is een magische plek, vol oude bomen die fluisteren en takken die zachtjes
-                    bewegen in de wind. Mijn huis is een holle boom, lekker knus en gezellig. Overal
-                    om me heen liggen noten, glinsterende bloemen en kabbelende beekjes. Het bos
-                    zorgt altijd voor de beste avonturen! In de zomer is het heerlijk koel, en in de
-                    herfst veranderen de bomen in een zee van gouden bladeren. Zelfs als het regent,
-                    is het bos warm en knus, met een dak van bladeren die het water tegenhouden. Het
-                    is een plek vol magie en geheimen, en ik voel me er helemaal thuis. Kom je een
-                    keer spelen? Wie weet ontdek jij wel een geheime plek die zelfs ik nog niet ken!
+                    Het Sint-Annabos is een magische plek, vol oude bomen die fluisteren en takken 
+                    die zachtjes bewegen in de wind. Mijn huis is een holle boom, lekker knus en 
+                    gezellig.  Het is een plek vol magie en geheimen, en ik voel me er helemaal thuis. 
+                    Kom mijn thuis boeken op 2 - 3 mei? Wie weet ontdek jij wel een geheime plek die 
+                    zelfs ik nog niet ken!
                   </p>
                 </div>
               </div>
@@ -250,13 +243,13 @@ export default function Home() {
               <div className="size-full w-11/12 sm:w-3/4 lg:w-11/12 xl:w-3/4 lg:h-3/4 3xl:size-3/5 flex justify-center lg:items-center">
                 <div>
                   <h1 className="text-center font-veryberry text-3xl sm:text-5xl 2xl:text-7xl 3xl:text-8xl text-custom_rose">
-                    Heb jij er ook al honger van gekregen?
+                    Heb jij er ook honger van gekregen?
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl mt-8 sm:mt-12 xl:text-2xl">
-                    Na al dat wandelen en avontuur krijg je natuurlijk wel honger! En wat is er nu
-                    lekkerder dan een warme, smakelijke pannenkoek? Niets toch? Daarom hebben we aan
-                    het eind een speciale plek voor jou waar je even kunt uitrusten en lekker kunt
-                    smikkelen van heerlijke pannenkoeken!
+                    Na al dat wandelen en avontuur krijg je natuurlijk wel honger! 
+                    En wat is er nu lekkerder dan een warme, lekkere pannenkoek? 
+                    Aan het einde kan je even uitrusten en lekker smikkelen van 
+                    heerlijke pannenkoeken!
                   </p>
                 </div>
               </div>
