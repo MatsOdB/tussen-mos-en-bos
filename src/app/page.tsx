@@ -155,7 +155,7 @@ export default function Home() {
                   <div className="rounded-full size-28 sm:size-36 md:size-44 lg:size-48 xl:size-56 2xl:size-64 4xl:size-96 bg-[url('/assets/img/content/11.png')] bg-center bg-cover group">
                     <div className="size-full rounded-full flex justify-center items-center bg-orange-50 bg-opacity-0 transition-bg-opacity duration-300 ease-in-out group-hover:bg-opacity-80 group-focus-within:bg-opacity-80 group-active:bg-opacity-80">
                       <p className="hidden group-hover:block text-center font-alice font-semibold text-3xl 2xl:text-4xl text-custom_brown">
-                        Dorien
+                        Aisha
                       </p>
                     </div>
                   </div>
