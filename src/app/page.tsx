@@ -130,6 +130,7 @@ export default function Home() {
                 Onderweg ontdekken we niet alleen de geheimen van de natuur, maar beleven we ook allerlei leuke activiteiten.
                 De wandeling zit boordevol spelletjes, fascinerende bosweetjes en bijzondere opdrachten, 
                 zoals het testen van je eekhoorn-snelheid met het stokvangspel. ✨
+                De wandeling is 1,8 km en zal dus ongeveer 2,5 uur duren.
               </p>
             </div>
           </div>
