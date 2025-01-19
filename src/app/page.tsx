@@ -220,7 +220,7 @@ export default function Home() {
             </div>
             <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
               <Image
-                src={"/assets/img/content/forest.jpg"}
+                src={"/assets/img/content/magische thuis.png"}
                 alt="Sami's thuis"
                 width={1080}
                 height={1080}
