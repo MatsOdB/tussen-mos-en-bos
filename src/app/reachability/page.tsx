@@ -34,7 +34,7 @@ export default function Home() {
               <p className="text-center mt-12 lg:text-lg xl:text-xl 3xl:text-2xl">
                 In de buurt van het Sint-Annabos kan je langs verschillende straten gratis parkeren.
                 <br />
-                Neem vooral zeker een kijk op{" "}
+                Neem zeker een kijk op{" "}
                 <Link
                   href="https://map.seety.co/August%20Vermeylenlaan%202,%202050%20Antwerpen/15?lang=nl"
                   className="underline"
@@ -45,7 +45,7 @@ export default function Home() {
               <h2 className="text-center mt-8 font-alice font-semibold">Let op!</h2>
               <p className="text-center mt-2 lg:text-lg xl:text-xl 3xl:text-2xl">
                 Linkeroever is een lage-emissiezone. Controleer tijdig of jouw voertuig toegelaten
-                is via deze test. Meer info vind je op de website van Slim naar Antwerpen.
+                is.
               </p>
             </div>
             <div>
