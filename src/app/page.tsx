@@ -107,7 +107,7 @@ export default function Home() {
                     <br />
                     <br />
                     Kom jij mij helpen op 2 - 3 mei?{" "}
-                    <Link href="/" className="underline">
+                    <Link href="https://shop.paylogic.com/6eeb0cd29b59437d9ece3a9d843ec88f/tickets-tussen-mos-en-bos" className="underline">
                       Link tickets
                     </Link>
                   </p>
