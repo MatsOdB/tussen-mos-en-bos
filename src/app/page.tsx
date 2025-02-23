@@ -9,6 +9,11 @@ const navigation = [
   { name: "Over Ons", href: "/about", current: false },
   { name: "Bereikbaarheid", href: "/reachability", current: false },
   { name: "Contact", href: "/contact", current: false },
+  {
+    name: "Tickets",
+    href: "https://shop.paylogic.com/6eeb0cd29b59437d9ece3a9d843ec88f/tickets-tussen-mos-en-bos",
+    current: false,
+  },
 ];
 
 export default function Home() {
@@ -101,13 +106,16 @@ export default function Home() {
                     Hey Speurneus!
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl sm:mt-12 xl:text-2xl">
-                    HELP! Ik ben Sammi de eekhoorn en mijn eten is verdwenen. Wat ben ik toch verstrooid. 
-                    Ik zoek de hele dag achter elke struik en beukenboom 🌳, maar ik vind helemaal niets… 😢
-                    Waar heb ik mijn nootjes toch verstopt?
+                    HELP! Ik ben Sammi de eekhoorn en mijn eten is verdwenen. Wat ben ik toch
+                    verstrooid. Ik zoek de hele dag achter elke struik en beukenboom 🌳, maar ik
+                    vind helemaal niets… 😢 Waar heb ik mijn nootjes toch verstopt?
                     <br />
                     <br />
                     Kom jij mij helpen op 2 - 3 mei?{" "}
-                    <Link href="https://shop.paylogic.com/6eeb0cd29b59437d9ece3a9d843ec88f/tickets-tussen-mos-en-bos" className="underline">
+                    <Link
+                      href="https://shop.paylogic.com/6eeb0cd29b59437d9ece3a9d843ec88f/tickets-tussen-mos-en-bos"
+                      className="underline"
+                    >
                       Link tickets
                     </Link>
                   </p>
@@ -123,14 +131,14 @@ export default function Home() {
                 Wat is &apos; Tussen Mos en Bos &apos; ?
               </h1>
               <p className="text-center font-alice text-base sm:text-2xl 3xl:text-2xl 4xl:text-3xl mt-6 sm:mt-12 xl:text-2xl w-10/12 pb-4 sm:pb-0">
-                Een avontuurlijke en verhalende wandeling op 2 en 3 mei, speciaal voor jonge speurneuzen van 5 tot 10 jaar 
-                en hun dappere (groot)ouders. 🌳🐿️
-                Ik ben Sammi de Eekhoorn en samen met mijn vriendjes, gespeeld door acteurs, neem ik jullie mee op 
-                een spannende wandeling door het bos. 🪻☘️
-                Onderweg ontdekken we niet alleen de geheimen van de natuur, maar beleven we ook allerlei leuke activiteiten.
-                De wandeling zit boordevol spelletjes, fascinerende bosweetjes en bijzondere opdrachten, 
-                zoals het testen van je eekhoorn-snelheid met het stokvangspel. ✨
-                De wandeling is 1,8 km en zal dus ongeveer 2,5 uur duren.
+                Een avontuurlijke en verhalende wandeling op 2 en 3 mei, speciaal voor jonge
+                speurneuzen van 5 tot 10 jaar en hun dappere (groot)ouders. 🌳🐿️ Ik ben Sammi de
+                Eekhoorn en samen met mijn vriendjes, gespeeld door acteurs, neem ik jullie mee op
+                een spannende wandeling door het bos. 🪻☘️ Onderweg ontdekken we niet alleen de
+                geheimen van de natuur, maar beleven we ook allerlei leuke activiteiten. De
+                wandeling zit boordevol spelletjes, fascinerende bosweetjes en bijzondere
+                opdrachten, zoals het testen van je eekhoorn-snelheid met het stokvangspel. ✨ De
+                wandeling is 1,8 km en zal dus ongeveer 2,5 uur duren.
               </p>
             </div>
           </div>
@@ -209,11 +217,11 @@ export default function Home() {
                     Mijn magische thuis
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl mt-4 sm:mt-12 xl:text-2xl">
-                    Het Sint-Annabos is een magische plek, vol oude bomen die fluisteren en takken 
-                    die zachtjes bewegen in de wind. Mijn huis is een holle boom, lekker knus en 
-                    gezellig.  Het is een plek vol magie en geheimen, en ik voel me er helemaal thuis. 
-                    Kom mijn thuis boeken op 2 - 3 mei? Wie weet ontdek jij wel een geheime plek die 
-                    zelfs ik nog niet ken!
+                    Het Sint-Annabos is een magische plek, vol oude bomen die fluisteren en takken
+                    die zachtjes bewegen in de wind. Mijn huis is een holle boom, lekker knus en
+                    gezellig. Het is een plek vol magie en geheimen, en ik voel me er helemaal
+                    thuis. Kom mijn thuis boeken op 2 - 3 mei? Wie weet ontdek jij wel een geheime
+                    plek die zelfs ik nog niet ken!
                   </p>
                 </div>
               </div>
@@ -247,44 +255,12 @@ export default function Home() {
                     Heb jij er ook honger van gekregen?
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl mt-8 sm:mt-12 xl:text-2xl">
-                    Na al dat wandelen en avontuur krijg je natuurlijk wel honger! 
-                    En wat is er nu lekkerder dan een warme, lekkere pannenkoek? 
-                    Aan het einde kan je even uitrusten en lekker smikkelen van 
-                    heerlijke pannenkoeken!
+                    Na al dat wandelen en avontuur krijg je natuurlijk wel honger! En wat is er nu
+                    lekkerder dan een warme, lekkere pannenkoek? Aan het einde kan je even uitrusten
+                    en lekker smikkelen van heerlijke pannenkoeken!
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center mt-16 sm:mt-auto">
-          <div className="size-full flex flex-col lg:flex-row">
-            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
-              <div className="size-full w-11/12 sm:w-3/4 lg:w-11/12 xl:w-3/4 lg:h-3/4 3xl:size-3/5 flex justify-center items-center">
-                <div>
-                  <h1 className="text-center font-veryberry text-3xl sm:text-5xl 2xl:text-7xl 3xl:text-8xl text-cyan-700">
-                    Het verhaal
-                  </h1>
-                  <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl mt-4 sm:mt-12 xl:text-2xl">
-                    Zoals jullie misschien al weten, ben ik mijn eten kwijt! Maar als jullie mij
-                    komen helpen, beloof ik jullie een spannend avontuur! Jullie beginnen aan een
-                    wandeltocht door mijn magische thuis, het bos. Onderweg vertellen mijn vriendjes
-                    jullie een leuk verhaal en komen er een paar avontuurlijke stops waar jullie een
-                    opdracht moeten doen. Als jullie de opdrachten goed uitvoeren, krijgen jullie
-                    mijn eten mee, zodat jullie het later aan mij kunnen geven! De wandeling is 1,8
-                    km en zal dus ongeveer X uur duren
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
-              <Image
-                src={"/assets/img/content/walking.jpg"}
-                alt="Wandelende kinderen"
-                width={1080}
-                height={1080}
-                className="size-3/4 3xl:size-3/5 rounded-xl object-cover"
-              />
             </div>
           </div>
         </section>

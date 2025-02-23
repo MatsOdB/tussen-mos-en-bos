@@ -7,6 +7,11 @@ const navigation = [
   { name: "Over Ons", href: "/about", current: false },
   { name: "Bereikbaarheid", href: "/reachability", current: true },
   { name: "Contact", href: "/contact", current: false },
+  {
+    name: "Tickets",
+    href: "https://shop.paylogic.com/6eeb0cd29b59437d9ece3a9d843ec88f/tickets-tussen-mos-en-bos",
+    current: false,
+  },
 ];
 
 export default function Home() {

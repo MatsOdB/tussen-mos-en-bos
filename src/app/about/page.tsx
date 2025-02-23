@@ -7,6 +7,11 @@ const navigation = [
   { name: "Over Ons", href: "/about", current: true },
   { name: "Bereikbaarheid", href: "/reachability", current: false },
   { name: "Contact", href: "/contact", current: false },
+  {
+    name: "Tickets",
+    href: "https://shop.paylogic.com/6eeb0cd29b59437d9ece3a9d843ec88f/tickets-tussen-mos-en-bos",
+    current: false,
+  },
 ];
 
 export default function Home() {
@@ -190,10 +195,10 @@ export default function Home() {
                   </h1>
                   <p className="text-center font-alice text-sm sm:text-xl 3xl:text-2xl 4xl:text-3xl sm:mt-12 xl:text-2xl">
                     Ik ben dan wel een creatieve en energieke eekhoorn, maar verhaaltjes schrijven
-                    is niet mijn sterkste kant. Daarom heb ik de hulp van Stefan ingeschakeld!
-                    Hij gaat me helpen om mijn avonturen zo goed mogelijk op te schrijven, zodat
-                    jullie er helemaal van kunnen genieten. Stefan voelt zich helemaal thuis met
-                    pen en papier. Zo schrijft hij bijvoorbeeld ook voor nieuwssites!
+                    is niet mijn sterkste kant. Daarom heb ik de hulp van Stefan ingeschakeld! Hij
+                    gaat me helpen om mijn avonturen zo goed mogelijk op te schrijven, zodat jullie
+                    er helemaal van kunnen genieten. Stefan voelt zich helemaal thuis met pen en
+                    papier. Zo schrijft hij bijvoorbeeld ook voor nieuwssites!
                   </p>
                 </div>
               </div>
