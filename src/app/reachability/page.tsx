@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <>
       <NavBar navigation={navigation} className="font-alice" />
-      <div className="h-[calc(100svh-65px)] overflow-y-scroll md:snap-y md:snap-mandatory">
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex flex-col items-center">
+      <div className="h-[calc(100svh-65px)] overflow-y-scroll">
+        <section className="h-[calc(100svh-65px)] flex flex-col items-center">
           <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl 3xl:text-9xl font-veryberry text-orange-400 mt-6 sm:mt-10 md:mt-12 lg:mt-8 3xl:mt-20 4xl:mt-32">
             Bereikbaarheid
           </h1>
@@ -58,12 +58,10 @@ export default function Home() {
                 Fiets
               </h1>
               <p className="text-center mt-12 lg:text-lg xl:text-xl 3xl:text-2xl">Velo Antwerpen</p>
-              <p className="lg:text-lg xl:text-xl 3xl:text-2xl">
-                <ul className="list-disc">
-                  <li>144- August Vermeylenlaan</li>
-                  <li>142- Esmoreitlaan</li>
-                </ul>
-              </p>
+              <ul className="list-disc lg:text-lg xl:text-xl 3xl:text-2xl">
+                <li>144- August Vermeylenlaan</li>
+                <li>142- Esmoreitlaan</li>
+              </ul>
             </div>
           </div>
         </section>

@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <>
       <NavBar navigation={navigation} className="font-alice" />
-      <div className="h-[calc(100svh-65px)] overflow-y-scroll md:snap-y md:snap-mandatory">
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center">
+      <div className="h-[calc(100svh-65px)] overflow-y-scroll">
+        <section className="h-[calc(100svh-65px)] flex items-center justify-center">
           <div className="h-full w-full">
             <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl 3xl:text-9xl font-veryberry text-orange-400 mt-6 sm:mt-10 md:mt-12 lg:mt-8 3xl:mt-20 4xl:mt-32">
               Wie zijn wij?
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center">
+        <section className="h-[calc(100svh-65px)] flex items-center justify-center">
           <div className="size-full flex flex-col lg:flex-row">
             <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
               <Image

@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <>
       <NavBar navigation={navigation} className="font-alice" />
-      <div className="h-[calc(100svh-65px)] overflow-y-scroll md:snap-y md:snap-mandatory">
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center">
+      <div className="h-[calc(100svh-65px)] overflow-y-scroll">
+        <section className="h-[calc(100svh-65px)] flex items-center justify-center">
           <div className="bg-[url('/assets/img/header/01.png')] bg-center bg-cover h-full w-full">
             <div className="bg-orange-50 bg-opacity-60 h-full w-full">
               <div className="h-full flex lg:items-end items-center justify-center">
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center">
+        <section className="h-[calc(100svh-65px)] flex items-center justify-center">
           <div className="size-full flex flex-col lg:flex-row">
             <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
               <Image
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center mt-32 sm:mt-auto">
+        <section className="h-[calc(100svh-65px)] flex items-center justify-center mt-32 sm:mt-auto">
           <div className="size-full flex items-center justify-center">
             <div className="flex flex-col items-center 2xl:w-3/4 4xl:w-3/5">
               <h1 className="text-center text-3xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl 3xl:text-9xl font-veryberry text-orange-400">
@@ -143,7 +143,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center mt-16 sm:mt-auto">
+        <section className="h-[calc(100svh-65px)] flex items-center justify-center mt-16 sm:mt-auto">
           <div className="size-full bg-custom_green">
             <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl 3xl:text-9xl font-veryberry text-custom_rose mt-8 xl:mt-16 2xl:mt-24">
               Ontmoet mijn vriendjes!
@@ -208,7 +208,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="md:snap-start h-[calc(100svh-65px)] sm:min-h-[60rem] md:min-h-0 flex items-center justify-center mt-16 sm:mt-auto">
+        <section className="h-[calc(100svh-65px)] flex items-center justify-center mt-16 sm:mt-auto">
           <div className="size-full flex flex-col lg:flex-row">
             <div className="h-1/2 lg:h-auto lg:w-1/2 flex justify-center items-center">
               <div className="size-full w-11/12 sm:w-3/4 lg:w-11/12 xl:w-3/4 lg:h-3/4 3xl:size-3/5 flex justify-center items-center">
