@@ -134,11 +134,11 @@ export default function Home() {
                 Een avontuurlijke en verhalende wandeling op 2 en 3 mei, speciaal voor jonge
                 speurneuzen van 5 tot 10 jaar en hun dappere (groot)ouders. 🌳🐿️ Ik ben Sammi de
                 Eekhoorn en samen met mijn vriendjes, gespeeld door acteurs, neem ik jullie mee op
-                een spannende wandeling door het bos. 🪻☘️ Onderweg ontdekken we niet alleen de
+                een spannende wandeling door het bos. ☘️ Onderweg ontdekken we niet alleen de
                 geheimen van de natuur, maar beleven we ook allerlei leuke activiteiten. De
                 wandeling zit boordevol spelletjes, fascinerende bosweetjes en bijzondere
                 opdrachten, zoals het testen van je eekhoorn-snelheid met het stokvangspel. ✨ De
-                wandeling is 1,8 km en zal dus ongeveer 2,5 uur duren.
+                wandeling is 1,7 km en zal dus ongeveer 2,5 uur duren.
               </p>
             </div>
           </div>
@@ -220,7 +220,7 @@ export default function Home() {
                     Het Sint-Annabos is een magische plek, vol oude bomen die fluisteren en takken
                     die zachtjes bewegen in de wind. Mijn huis is een holle boom, lekker knus en
                     gezellig. Het is een plek vol magie en geheimen, en ik voel me er helemaal
-                    thuis. Kom mijn thuis boeken op 2 - 3 mei? Wie weet ontdek jij wel een geheime
+                    thuis. Kom jij mijn thuis bezoeken op 2 - 3 mei? Wie weet ontdek jij wel een geheime
                     plek die zelfs ik nog niet ken!
                   </p>
                 </div>
