@@ -22,7 +22,7 @@ export default function Home() {
         <section className="h-[calc(100svh-65px)] flex items-center justify-center">
           <div className="h-full w-full">
             <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl 3xl:text-9xl font-veryberry text-orange-400 mt-6 sm:mt-10 md:mt-12 lg:mt-8 3xl:mt-20 4xl:mt-32">
-              Wie zijn wij??
+              Wie zijn wij?
             </h1>
             <div className="hidden lg:flex flex-col items-center">
               <div className="grid grid-cols-3 gap-x-12 xl:gap-x-16 2xl:gap-x-24 3xl:gap-x-32 4xl:gap-x-44 mt-12 xl:mt-20 2xl:mt-32 3xl:mt-44">
