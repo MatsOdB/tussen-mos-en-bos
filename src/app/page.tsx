@@ -62,6 +62,11 @@ const sponsors = [
     href: "https://www.pleegzorg.be/antwerpen",
     src: "/assets/img/sponsors/pleegzorg.jpeg",
   },
+  {
+    name: "Hintra",
+    href: "https://hintra.be",
+    src: "/assets/img/sponsors/hintra.jpg",
+  },
 ];
 
 export default function Home() {
